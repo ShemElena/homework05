@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="./css/styles.css">
+    
+    <title>Table and Forms</title>
+</head>
+
+<body>
+    <table>
+      <thead>
+        <tr>
+          <th> Name <img class="triangle" src="./img/triangle.svg" alt="triangle"/></th>
+          <th>Date</th>
+          <th> </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>File.pdf</td>
+          <td>3 mins ago</td>
+          <td class="point"><b>...</b></td>
+        </tr>
+        <tr>
+          <td>File.pdf</td>
+          <td>Yesterday</td>
+          <td class="point"><b>...</b></td>
+        </tr>
+        <tr>
+          <td>File.pdf</td>
+          <td>June 1st, 2019</td>
+          <td class="point"><b>...</b></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr>
+          <th><input type="checkbox" name="" id="" class="checkbox" />Name<img class="triangle" src="./img/triangle.svg" alt="triangle"/></th>
+          <th>Date</th>
+          <th> </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td><input type="checkbox" name="" id="" class="checkbox" />File.pdf</td>
+          <td>3 mins ago</td>
+          <td class="point"><b>...</b></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="" id="" class="checkbox" />File.pdf</td>
+          <td>Yesterday</td>
+          <td class="point"><b>...</b></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="" id="" class="checkbox" />File.pdf</td>
+          <td>June 1st, 2019</td>
+          <td class="point"><b>...</b></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name<img class="triangle" src="./img/triangle.svg" alt="triangle"/></th>
+          <th colspan="2" class="date-title">
+                <span class="date-text">Date</span>
+                <label for="input" class="label"><img src="./img/search.png" alt="" width="20px"/></label>
+                <input
+                    id="input"
+                    type="text"
+                    class="date-input"
+                    placeholder="Search"/>
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>
+            <img
+              src="./img/archive.png"
+              class="archive"
+              alt=""
+            />File.pdf
+          </td>
+          <td>3 mins ago</td>
+          <td class="point"><b>...</b></td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="./img/archive.png"
+              class="archive"
+              alt=""
+            />File.pdf
+          </td>
+          <td>Yesterday</td>
+          <td class="point"><b>...</b></td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="./img/archive.png"
+              class="archive"
+              alt=""
+            />File.pdf
+          </td>
+          <td>June 1st, 2019</td>
+          <td class="point"><b>...</b></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+
+</html>
